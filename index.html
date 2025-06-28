@@ -1,53 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pikachu CSS Art</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Pac-Man Pure CSS</title>
+  <style>
+    body {
+      background: black;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    h1 {
+      color: yellow;
+      font-size: 48px;
+      letter-spacing: 4px;
+      margin-bottom: 40px;
+      text-shadow: 2px 2px 0 #000, 4px 4px 0 #333;
+    }
+
+    .pacman {
+      width: 0;
+      height: 0;
+      border-top: 60px solid yellow;
+      border-right: 60px solid transparent;
+      border-bottom: 60px solid yellow;
+      border-left: 60px solid yellow;
+      border-radius: 50%;
+      transform: rotate(-45deg);
+    }
+  </style>
 </head>
 <body>
-    <div class="pikachu-wrapper">
-        <div class="pikachu-head">
-            <!-- Left Ear -->
-            <div class="ear left-ear">
-                <div class="ear-inner"></div>
-                <div class="ear-tip"></div>
-            </div>
-            <!-- Right Ear -->
-            <div class="ear right-ear">
-                <div class="ear-inner"></div>
-                <div class="ear-tip"></div>
-            </div>
-
-            <!-- Left Eye -->
-            <div class="eye left-eye">
-                <div class="eye-highlight-lg"></div>
-                <div class="eye-highlight-sm"></div>
-            </div>
-            <!-- Right Eye -->
-            <div class="eye right-eye">
-                <div class="eye-highlight-lg"></div>
-                <div class="eye-highlight-sm"></div>
-            </div>
-
-            <!-- Left Cheek -->
-            <div class="cheek left-cheek"></div>
-            <!-- Right Cheek -->
-            <div class="cheek right-cheek"></div>
-
-            <!-- Mouth -->
-            <div class="mouth-outer">
-                <div class="mouth-inner">
-                    <div class="tongue-outer">
-                        <div class="tongue-inner"></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Nose (small dot) -->
-            <div class="nose"></div>
-        </div>
-    </div>
+  <h1>PAC-MAN</h1>
+  <div class="pacman"></div>
 </body>
 </html>
