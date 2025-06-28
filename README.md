@@ -1,25 +1,31 @@
-# ⚡ Pure CSS Pikachu Face
+# 🟡 Pac-Man in Pure HTML & CSS
 
-This project recreates Pikachu’s face using only **HTML and CSS**.  
-✅ No images  
-✅ No SVGs  
-✅ No background-image URLs  
-✅ Hand-coded with `div` and `span` elements.
+A faithful recreation of the classic Pac-Man character using only HTML and CSS — no images, no SVG, no background URLs. Fully responsive and styled to match the retro arcade look.
 
-## 🌟 Features
-- Pikachu’s face created entirely with HTML and CSS.
-- Uses only CSS properties like `background`, `border-radius`, `box-shadow`, `transform`, `clip-path`, and absolute positioning.
-- No external assets or images.
+## 🎯 Features
 
-## 🛠 Technologies Used
-- HTML (div, span)
-- CSS (background, border-radius, box-shadow, position, transform, clip-path)
+- ✅ Pure HTML + CSS (no JS, SVG, or images)
+- ✅ Accurate Pac-Man shape using border-radius and clip-trick
+- ✅ Centered layout with a bold "PAC-MAN" title
+- ✅ Retro arcade color scheme (black background, yellow character)
 
-## 🚀 How to Run
-1. Clone or download this repository.
-2. Open `index.html` in any modern web browser.
+## 🚀 Live Demo
 
-## 💡 Approach
-I designed Pikachu’s face using layered `div` and `span` elements for each part (ears, eyes, nose, mouth, cheeks, tongue).  
-Shapes and positions were created using CSS properties like `border-radius`, `background`, `transform`, `clip-path`, and `absolute positioning`.  
-No images or SVGs were used — it’s a fully hand-coded pure CSS design.
+[[Click here] – You can deploy this using GitHub Pages, Netlify, or Vercel.](https://sarthakb1702.github.io/CSS-Art-Festival/)
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3 (Flexbox, Borders, Border-Radius, Transform)
+
+## 📦 How to Run
+
+1. Clone or download the repository.
+2. Open `index.html` in any modern browser.
+3. That's it!
+
+## ✏️ Customization Ideas
+
+- Add ghosts beside Pac-Man using CSS.
+- Animate Pac-Man "eating" across the screen.
+- Make the game board layout using grid.
