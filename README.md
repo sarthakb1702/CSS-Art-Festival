@@ -11,7 +11,7 @@ A faithful recreation of the classic Pac-Man character using only HTML and CSS �
 
 ## 🚀 Live Demo
 
-[[Click here] – You can deploy this using GitHub Pages, Netlify, or Vercel.](https://sarthakb1702.github.io/CSS-Art-Festival/)
+[[Click here]](https://sarthakb1702.github.io/CSS-Art-Festival/)
 
 ## 🛠️ Built With
 
